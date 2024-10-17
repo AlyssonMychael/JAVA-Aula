@@ -1,10 +1,5 @@
 package org.example;
 
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class Pessoa {
@@ -15,7 +10,7 @@ public class Pessoa {
 
     public Pessoa() {}
 
-    public Pessoa (int id, String nome, int idade, float altura) {
+    public Pessoa(int id, String nome, int idade, float altura) {
         this.id = id;
         this.nome = nome;
         this.idade = idade;
@@ -54,4 +49,3 @@ public class Pessoa {
         this.altura = altura;
     }
 }
-
